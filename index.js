@@ -8,19 +8,19 @@ var leitor = readline.createInterface({
 
 var nomes = {
 a : {
-    nome : ["mag"],
+    nome : ["a"],
     idade : [36],
-    estilo : ["pessimo"]
+    estilo : ["teste"]
 },
 b : {
-    nome : ["vini"],
+    nome : ["b"],
     idade : [19],
-    estilo : ["maconheiro"]
+    estilo : ["teste2"]
 },
 c : {
-    nome : ["roro"],
+    nome : ["c"],
     idade : [25],
-    estilo : ["noia"]
+    estilo : ["teste3"]
 }}
 
 leitor.question("Escolha entre a, b ou c :\n", function(answer) {
